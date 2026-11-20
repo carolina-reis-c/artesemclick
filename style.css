@@ -681,11 +681,16 @@ a:focus-visible {
     inset: 0;
 
     background: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0.82) 0%,
-        rgba(0, 0, 0, 0.60) 34%,
-        rgba(0, 0, 0, 0.12) 72%,
-        rgba(0, 0, 0, 0.12) 100%
+
+    90deg,
+
+    rgba(0, 0, 0, 0.55) 0%,
+
+    rgba(0, 0, 0, 0.38) 34%,
+
+    rgba(0, 0, 0, 0.08) 72%,
+
+    rgba(0, 0, 0, 0.08) 100%
     );
 
 }
