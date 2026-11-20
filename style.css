@@ -3031,13 +3031,16 @@ a:focus-visible {
     }
 }
 
-/* AJUSTE DA FOTO DA HERO NO COMPUTADOR */
+
+/* IMAGEM DIFERENTE NA HERO DO COMPUTADOR */
 @media (min-width: 769px) {
     .hero-background img {
-        object-fit: contain;
+        content: url("imagens/Img3.webp");
+        object-fit: cover;
         object-position: center;
     }
 }
+
 
 
 /* =========================================================
